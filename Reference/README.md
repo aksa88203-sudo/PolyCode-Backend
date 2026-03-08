@@ -131,3 +131,12 @@ Common error codes:
 - [Intermediate](../02_Intermediate/) - Usage examples
 - [Advanced](../03_Advanced/) - Complex scenarios
 - [Examples](../05_Examples/) - Practical applications
+
+## New Example Files
+
+- [Command Usage Examples](Commands/Command Usage Examples.md)
+- [Quick Command Examples](Quick Reference/Quick Command Examples.md)
+- [Batch Syntax Examples](Syntax Guide/Batch Syntax Examples.md)
+- [File and Directory Examples](Examples/File and Directory Examples.bat)
+- [Control Flow Examples](Examples/Control Flow Examples.bat)
+- [Variables and Strings Examples](Examples/Variables and Strings Examples.bat)

@@ -330,18 +330,26 @@ exit /b 0
 - `hello world.bat`
 - `user input and greeting.bat`
 - `simple calculator.bat`
+- `file exists check.bat`
+- `for loop counter.bat`
 
 ### Intermediate (`Examples/Intermediate`)
 - `menu driven tool.bat`
 - `file backup copy.bat`
 - `logging helper.bat`
+- `csv reader.bat`
+- `retry command.bat`
 
 ### Advanced (`Examples/Advanced`)
 - `recursive cleaner.bat`
 - `error handling pattern.bat`
 - `argument parser.bat`
+- `config driven runner.bat`
+- `json like parser.bat`
 
 ### Real World (`Examples/Real World`)
 - `daily project backup.bat`
 - `system health report.bat`
 - `bulk rename by extension.bat`
+- `disk cleanup helper.bat`
+- `network ping monitor.bat`

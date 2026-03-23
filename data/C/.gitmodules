@@ -1,4 +1,3 @@
-
 [submodule "Quantum"]
 	path = Quantum
 	url = https://github.com/SENODROOM/c.sa.git

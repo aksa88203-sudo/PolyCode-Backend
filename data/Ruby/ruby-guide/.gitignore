@@ -1,0 +1,836 @@
+# Ruby Guide .gitignore
+
+# Ruby specific
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Caching
+.cache/
+.sass-cache/
+
+# Documentation
+.yardoc/
+_yardoc/
+doc/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+
+# Generated files
+*.generated
+*.compiled
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with sensitive data
+config/secrets.yml
+config/database.yml
+config/application.yml
+
+# Node.js (if using for build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Bundler
+.bundle/
+vendor/bundle/
+
+# RSpec
+/spec/examples.txt
+
+# Test coverage
+/coverage/
+
+# SimpleCov
+.coverage
+
+# RuboCop
+.rubocop.yml
+.rubocop-*
+
+# Reek
+.reek.yml
+
+# Brakeman
+brakeman.report
+
+# Security scanner reports
+security_report.*
+
+# Performance profiler outputs
+profiler_output.*
+benchmark_results.*
+
+# Temporary test files
+test_temp/
+temp_files/
+
+# Generated documentation
+docs/generated/
+api_docs/
+
+# Build artifacts
+build/
+dist/
+out/
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# Local development
+.local/
+dev/
+development/
+
+# Experimental features
+experimental/
+sandbox/
+
+# User-specific files
+user_data/
+user_config/
+
+# Large binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Media files
+*.mp4
+*.avi
+*.mov
+*.mp3
+*.wav
+
+# Font files
+*.ttf
+*.otf
+*.woff
+*.woff2
+
+# Generated certificates
+*.pem
+*.key
+*.crt
+*.csr
+
+# Local gem files
+*.gemfile.lock
+
+# RVM
+.rvmrc
+.ruby-version
+.ruby-gemset
+
+# rbenv
+.ruby-version
+
+# Editor backup files
+*~
+#*
+.#*
+
+# Vim swap files
+[._]*.swp
+[._]*.swo
+
+# Emacs backup files
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Project specific
+# Add any project-specific files or directories here
+
+# Example files that shouldn't be committed
+examples/temp/
+examples/output/
+examples/logs/
+
+# Test databases
+test_databases/
+sample_data/
+
+# Performance monitoring
+performance_logs/
+monitoring_data/
+
+# Security test files
+security_test_data/
+test_credentials.*
+
+# Machine learning models
+*.model
+*.pkl
+*.joblib
+
+# Large datasets
+datasets/
+large_files/
+
+# Temporary build artifacts
+tmp/
+temp/
+
+# Local configuration overrides
+config/local.*
+config/development.local.*
+config/test.local.*
+
+# Documentation build artifacts
+docs/_build/
+docs/.doctrees/
+
+# Jupyter notebooks (if used for examples)
+*.ipynb_checkpoints
+
+# Jupyter notebook outputs
+*.ipynb
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# WebStorm
+.idea/
+
+# RubyMine
+.idea/
+
+# Local environment overrides
+.env.override
+.env.local
+
+# Docker
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Kubernetes
+*.local.yml
+secrets/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Ansible
+*.retry
+inventory/local*
+
+# CI/CD pipeline artifacts
+artifacts/
+pipeline_cache/
+
+# Local development scripts
+scripts/local.*
+scripts/dev.*
+
+# Generated API documentation
+api_docs/
+swagger_generated/
+
+# Database migrations backup
+db/migrations_backup/
+
+# Local test data
+test/fixtures/local.*
+
+# Performance benchmark results
+benchmark_results/
+performance_reports/
+
+# Security scan results
+security_reports/
+vulnerability_reports.*
+
+# Code coverage reports
+coverage/
+coverage.xml
+coverage.json
+
+# Static analysis results
+static_analysis/
+code_quality_reports.*
+
+# Documentation translations
+translations/
+i18n/
+
+# User generated content
+user_content/
+uploads/
+
+# Temporary export files
+exports/
+downloads/
+
+# Local development databases
+db/local.*
+db/dev.*
+
+# Cache directories
+cache/
+tmp/cache/
+
+# Session files
+sessions/
+*.session
+
+# Lock files (keep important ones, ignore temporary ones)
+*.lock.tmp
+temp.lock
+
+# Local overrides for examples
+examples/config/local.*
+examples/data/local.*
+
+# Generated documentation
+docs/generated/
+api/
+
+# Test output files
+test/output/
+test/reports/
+test/logs/
+
+# Development logs
+logs/
+*.log
+
+# Monitoring and metrics
+metrics/
+monitoring/
+
+# Local development tools
+tools/local.*
+
+# Experimental branches
+branches/experimental/*
+branches/wip/*
+
+# Archive files
+archives/
+backups/
+
+# Local configuration examples
+config/examples/
+config/templates/
+
+# Generated certificates for testing
+test/certs/
+test/keys/
+
+# Local development scripts
+scripts/local.*
+scripts/dev.*
+
+# Temporary deployment files
+deploy/tmp/
+deploy/local.*
+
+# Local environment variables
+.env.local.*
+.env.development.*
+.env.test.*
+
+# User-specific settings
+settings/local.*
+settings/user.*
+
+# Temporary build files
+build/tmp/
+build/temp/
+
+# Local development databases
+data/local.*
+data/dev.*
+
+# Test data files
+test/data/local.*
+test/data/temp.*
+
+# Documentation build cache
+docs/.cache/
+docs/cache/
+
+# Local development logs
+logs/local.*
+logs/dev.*
+
+# Performance profiling data
+profiles/
+profiling_data.*
+
+# Security test data
+security/test_data/
+security/local.*
+
+# Machine learning models and data
+ml/models/local.*
+ml/data/local.*
+ml/cache/
+
+# API testing data
+api/test_data/
+api/local.*
+
+# Webhook testing
+webhooks/test_data/
+webhooks/local.*
+
+# Local development configurations
+config/local.*
+config/dev.*
+config/test.*
+
+# Temporary files for examples
+examples/temp/
+examples/tmp/
+examples/local.*
+
+# Generated documentation
+docs/generated/
+docs/build/
+
+# Local development tools
+tools/local.*
+tools/dev.*
+
+# Database backups
+db/backups/
+db/local.*
+
+# Cache and temporary files
+cache/local.*
+tmp/local.*
+
+# Local development logs
+logs/local.*
+logs/dev.*
+
+# Test output and reports
+test/local.*
+test/reports/local.*
+
+# Performance monitoring
+monitoring/local.*
+metrics/local.*
+
+# Security testing
+security/local.*
+vulnerability/local.*
+
+# API documentation
+api/local.*
+swagger/local.*
+
+# Webhook testing
+webhooks/local.*
+webhooks/test_data/
+
+# Machine learning
+ml/local.*
+models/local.*
+data/local.*
+
+# Development tools
+dev-tools/local.*
+scripts/local.*
+
+# Configuration files
+config/local.*
+settings/local.*
+
+# Temporary files
+temp/local.*
+tmp/local.*
+
+# Local databases
+db/local.*
+data/local.*
+
+# Logs and monitoring
+logs/local.*
+monitoring/local.*
+
+# Test files
+test/local.*
+spec/local.*
+
+# Documentation
+docs/local.*
+api/local.*
+
+# Build artifacts
+build/local.*
+dist/local.*
+
+# Deployment
+deploy/local.*
+infrastructure/local.*
+
+# Security
+security/local.*
+certs/local.*
+
+# Performance
+performance/local.*
+benchmark/local.*
+
+# Machine learning
+ml/local.*
+models/local.*
+data/local.*
+
+# Development
+dev/local.*
+sandbox/local.*
+
+# Examples
+examples/local.*
+samples/local.*
+
+# Tools
+tools/local.*
+utilities/local.*
+
+# Configuration
+config/local.*
+settings/local.*
+environment.local.*
+
+# Temporary files
+temp/local.*
+tmp/local.*
+cache/local.*
+
+# Logs
+logs/local.*
+monitoring/local.*
+
+# Test files
+test/local.*
+spec/local.*
+features/local.*
+
+# Documentation
+docs/local.*
+api/local.*
+guides/local.*
+
+# Build artifacts
+build/local.*
+dist/local.*
+packages/local.*
+
+# Deployment
+deploy/local.*
+infrastructure/local.*
+terraform/local.*
+
+# Security
+security/local.*
+certs/local.*
+keys/local.*
+
+# Performance
+performance/local.*
+benchmark/local.*
+profiling/local.*
+
+# Machine learning
+ml/local.*
+models/local.*
+data/local.*
+datasets/local.*
+
+# Development
+dev/local.*
+sandbox/local.*
+experimental.local.*
+
+# Examples
+examples/local.*
+samples/local.*
+demos.local.*
+
+# Tools
+tools/local.*
+utilities.local.*
+scripts.local.*
+
+# Configuration
+config/local.*
+settings/local.*
+environment.local.*
+secrets.local.*
+
+# Temporary files
+temp/local.*
+tmp/local.*
+cache/local.*
+
+# Logs
+logs/local.*
+monitoring.local.*
+metrics.local.*
+
+# Test files
+test/local.*
+spec.local.*
+features.local.*
+scenarios.local.*
+
+# Documentation
+docs/local.*
+api/local.*
+guides.local.*
+tutorials.local.*
+
+# Build artifacts
+build/local.*
+dist/local.*
+packages.local.*
+artifacts.local.*
+
+# Deployment
+deploy.local.*
+infrastructure.local.*
+terraform.local.*
+kubernetes.local.*
+
+# Security
+security.local.*
+certs.local.*
+keys.local.*
+secrets.local.*
+
+# Performance
+performance.local.*
+benchmark.local.*
+profiling.local.*
+monitoring.local.*
+metrics.local.*
+
+# Machine learning
+ml.local.*
+models.local.*
+data.local.*
+datasets.local.*
+experiments.local.*
+
+# Development
+dev.local.*
+sandbox.local.*
+experimental.local.*
+prototype.local.*
+
+# Examples
+examples.local.*
+samples.local.*
+demos.local.*
+tutorials.local.*
+
+# Tools
+tools.local.*
+utilities.local.*
+scripts.local.*
+binaries.local.*
+
+# Configuration
+config.local.*
+settings.local.*
+environment.local.*
+secrets.local.*
+override.local.*
+
+# Temporary files
+temp.local.*
+tmp.local.*
+cache.local.*
+storage.local.*
+
+# Logs
+logs.local.*
+monitoring.local.*
+metrics.local.*
+traces.local.*
+
+# Test files
+test.local.*
+spec.local.*
+features.local.*
+scenarios.local.*
+cases.local.*
+
+# Documentation
+docs.local.*
+api.local.*
+guides.local.*
+tutorials.local.*
+references.local.*
+
+# Build artifacts
+build.local.*
+dist.local.*
+packages.local.*
+artifacts.local.*
+releases.local.*
+
+# Deployment
+deploy.local.*
+infrastructure.local.*
+terraform.local.*
+kubernetes.local.*
+docker.local.*
+
+# Security
+security.local.*
+certs.local.*
+keys.local.*
+secrets.local.*
+policies.local.*
+
+# Performance
+performance.local.*
+benchmark.local.*
+profiling.local.*
+monitoring.local.*
+metrics.local.*
+traces.local.*
+
+# Machine learning
+ml.local.*
+models.local.*
+data.local.*
+datasets.local.*
+experiments.local.*
+training.local.*
+
+# Development
+dev.local.*
+sandbox.local.*
+experimental.local.*
+prototype.local.*
+testing.local.*
+
+# Examples
+examples.local.*
+samples.local.*
+demos.local.*
+tutorials.local.*
+playground.local.*
+
+# Tools
+tools.local.*
+utilities.local.*
+scripts.local.*
+binaries.local.*
+executables.local.*
+
+# Configuration
+config.local.*
+settings.local.*
+environment.local.*
+secrets.local.*
+override.local.*
+custom.local.*
+
+# Temporary files
+temp.local.*
+tmp.local.*
+cache.local.*
+storage.local.*
+workspace.local.*
+
+# Logs
+logs.local.*
+monitoring.local.*
+metrics.local.*
+traces.local.*
+audit.local.*
+
+# Test files
+test.local.*
+spec.local.*
+features.local.*
+scenarios.local.*
+cases.local.*
+fixtures.local.*
+
+# Documentation
+docs.local.*
+api.local.*
+guides.local.*
+tutorials.local.*
+references.local.*
+manuals.local.*

@@ -21,7 +21,6 @@ Express.js backend API serving documentation content with real-time file watchin
 ## 🛠️ Installation
 
 ```bash
-cd backend
 npm install
 ```
 
